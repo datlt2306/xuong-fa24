@@ -70,6 +70,7 @@ const LayoutAdmin: React.FC = ({ children }: { children: React.ReactNode }) => {
                         {children}
                     </div>
                 </Content>
+
                 <Footer style={{ textAlign: "center" }}>
                     Ant Design ©{new Date().getFullYear()} Created by Ant UED
                 </Footer>
