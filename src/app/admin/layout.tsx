@@ -40,7 +40,7 @@ const items: MenuItem[] = [
     getItem("Files", "9", <FileOutlined />),
 ];
 
-const LayoutAdmin: React.FC = ({ children }: { children: React.ReactNode }) => {
+const LayoutAdmin = ({ children }: { children: React.ReactNode }) => {
     const [collapsed, setCollapsed] = useState(false);
     const {
         token: { colorBgContainer, borderRadiusLG },
